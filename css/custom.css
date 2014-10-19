@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 Οκτ 2014, 2:17:36 μμ
+    Author     : UFO
+*/
+body {
+    background-color:  beige ;
+font-family: 'glyphicons';
+}
+
+.container{
+    width:70%;
+    margin: 0 auto;
+}
+
+#header img{
+float: left;
+max-width: 25%;
+}
+
+#header {
+    text-align: right;
+    margin-right: 0;   
+}
+
+
+
+.container hr {     
+     border-style: outset;
+     border-width: thin;
+     border-bottom-color:  white;
+     border-top-color: deepskyblue;
+}
+
+#matrix{  
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.container h4{    
+   text-align: center;
+}
+
+#Fc{
+    margin-top: 100px;    
+    text-decoration: underline;
+}
+
+
+
+
+.carousel-inner .item img{
+    width:100%;
+    margin:auto;
+}
+
+
+
+#contact img{
+    padding: 4px;
+    width:40px;
+    height:40px;
+    
+}
+
+#contact{
+   color: #CCC ;
+}
