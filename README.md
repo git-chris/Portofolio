@@ -13,4 +13,4 @@ Also visited www.csstutorial.net
 
 
 I hope i am not violating any "rules" of the project by using a carousel and not three separate "boxes" as in the mockup. 
-I had big trouble getting the carousel element in my HTML(jquey or faulty bootstrap.min.js) so desperate I followed almost step by step the example on official site.
+I had big trouble getting the carousel element in my HTML(jquey or faulty bootstrap.min.js)
