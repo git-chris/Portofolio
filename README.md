@@ -12,5 +12,5 @@ In addition to the videos and resources in HTML/INTRO I visited w3schools for cs
 Also visited www.csstutorial.net
 
 
-I hope i am not violating any "rules" of the project by using a carousel and not three separate "boxes" as in the mockup. 
+I hope i am not violating any rules of the project by using a carousel and not three separate "boxes" as in the mockup. 
 I had big trouble getting the carousel element in my HTML(jquey or faulty bootstrap.min.js)
