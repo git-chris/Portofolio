@@ -53,7 +53,8 @@ max-width: 25%;
 
 
 
-
+//this is for making any size of images used to fit and center in the carousel-found the solution
+//on web http://stackoverflow.com/questions/20849539/make-bootstrap-carousel-responsive-on-height
 .carousel-inner .item img{
     width:100%;
     margin:auto;
