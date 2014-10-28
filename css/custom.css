@@ -1,4 +1,4 @@
-/*
+﻿/*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
@@ -53,8 +53,8 @@ max-width: 25%;
 
 
 
-//this is for making any size of images used, fit and center in the carousel. Found the solution
-//on web http://stackoverflow.com/questions/20849539/make-bootstrap-carousel-responsive-on-height
+/*this is for making any size of images used, fit and center in the carousel. Found the solution*/
+/*on web http://stackoverflow.com/questions/20849539/make-bootstrap-carousel-responsive-on-height*/
 .carousel-inner .item img{
     width: 100%;
     margin: auto;
