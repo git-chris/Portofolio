@@ -1,106 +1,98 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
-        <title>Balafoutis Portofolio</title>
-        <meta charset="UTF-8">
+<html lang="en">
+    <head>        
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.min.css">     
         <link rel="stylesheet" href="css/custom.css">
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-
-
+        <script src="https://apis.google.com/js/platform.js"></script>
+        <title>Balafoutis Portofolio</title>
     </head>
     <body>
-        <div class="container"><!-----Bootstrap Container----->
-            
-            <!----Logo and Titles----->       
-            <div id="header" class="row">
-                <div class="col-1">
+        <!-- Bootstrap Container -->
+        <div class="container">            
+            <!-- Logo and Titles -->       
+            <header id="header" class="row">
+                <div class="col-md-6">
                   <img  src="img/logo.gif" alt="Logo">
                 </div>
-                  <div class="col-lg-offset-5">
-                        <h1>Christos Balafoutis</h1>
-                        <h5>Still working on my Kung-Fu!</h5>
-                    </div>
-            </div>
-            
-            <hr>
-            
-            <h4 class="text">You have the vision, I got the code!</h4> <!----Catchy or NOT?---->
-            <img id="matrix" src="img/matrix.jpg" class="img-responsive img-circle" alt="Matrix">
-            
-            <!----Featured Work---->
-            <h4 id="Fc" class="text">Featured Work</h4>
-                     
-               <!--Carousel-->
-                <div id="myCarousel" class="carousel slide">
-                    <!--Indicators-->
-                        <ol class="carousel-indicators">
-                                <li data-slide-to="0" class="active" data-target="#myCarousel" ></li>
-                                <li data-slide-to="1" data-target="#myCarousel" ></li>
-                                <li data-slide-to="2" data-target="#myCarousel" ></li>                                
-                        </ol>
- 
-                        <div class="carousel-inner">
-                                <div class="item active">
-                                        <img src="http://placehold.it/600x300" class="img-responsive">
-                                        <div class="carousel-caption">
-                                            <h4>Some site about Sports!</h4>
-                                            <a href="index.html">Link</a>
-                                        </div>
-                                </div>
- 
-                                <div class="item">
-                                        <img src="http://placehold.it/800x600" class="img-responsive">
-                                        <div class="carousel-caption">
-                                            <h4>Some site about Food!</h4>
-                                            <a href="index.html">Link</a>
-                                        </div>
-                                </div>
- 
-                                <div class="item">
-                                        <img src="http://placehold.it/1240x720" class="img-responsive ">
-                                        <div class="carousel-caption">
-                                            <h4>Some site about Politics!</h4>
-                                            <a href="index.html">Link</a>
-                                        </div>
-                                </div>                    
-                        </div>
-                    <!-- Carousel control buttons -->
-
-                                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                                        <span class="glyphicon glyphicon-arrow-left"></span>
-                                        </a>
-                                
-                                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                                        <span class="glyphicon glyphicon-arrow-right"></span>
-                                        </a>
+                <div class="col-md-6">
+                  <h1>Christos Balafoutis</h1>
+                  <h2>Web-dev in training!</h2>
                 </div>
- 
-                
-                       
-        
-           <hr>
-           
-           
-           <div id="contact">
-             
-                 <a href="mailto:chrisbalaf1987@gmail.com">Contact me via<img src="img/email.png"  alt="Email me"></a> 
-             
-              
-                 <a href="https://plus.google.com/u/0/107951965034064218250/about">Check my Profile on<img src="img/g.png" class="img-circle" alt="Google+ Profile"></a>
-             
-             
-                 <a href="http://gr.linkedin.com/pub/christos-balafoutis/76/294/794">See me on LinkedIn<img src="img/lin.png"  alt="View Christos Balafoutis's LinkedIn profile"></a>
-                  
-           
-           </div>
-           
-           
-           
+            </header>  
+            <hr>
+            <section class="row">                   
+                <div class="col-md-12">
+                    <!-- Catchy or NOT? -->
+                    <h3 class="text">You have the vision, I got the code!</h3> 
+                </div>
+                <div class="col-md-12">
+                    <img id="matrix" src="img/matrix.jpg" class="img-responsive img-thumbnail" alt="Matrix">
+                </div>
+            </section>
+            <!-- Featured Work -->
+            <section class="row">
+                <h3 id="Fc" class="text">Featured Work</h3>
+            </section>
+            <article class="row">
+                <div class="col-md-12">
+                 <!-- Carousel -->
+                 <div id="mywork" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-slide-to="0" class="active" data-target="#mywork" ></li>
+                      <li data-slide-to="1" data-target="#mywork" ></li>
+                      <li data-slide-to="2" data-target="#mywork" ></li>                                
+                    </ol>      
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <a href="index.html"><img src="http://placehold.it/600x300" class="img-responsive" alt="PlaceHolder"></a>
+                        <div class="carousel-caption">
+                            <h3>Some site about Sports!</h3>                                            
+                        </div>                                        
+                      </div> 
+                      <div class="item">
+                          <a href="index.html"><img src="http://placehold.it/800x600" class="img-responsive" alt="PlaceHolder"></a>
+                          <div class="carousel-caption">
+                            <h3>Some site about Food!</h3>                                            
+                          </div>                                        
+                      </div> 
+                      <div class="item">
+                          <a href="index.html"><img src="http://placehold.it/1240x720" class="img-responsive" alt="PlaceHolder"></a>
+                          <div class="carousel-caption">
+                             <h3>Some site about Politics!</h3>                                            
+                          </div>                                        
+                      </div>                    
+                    </div>
+                    <!-- Carousel control buttons -->
+                    <a class="carousel-control left" href="#mywork" data-slide="prev">
+                      <span class="glyphicon glyphicon-arrow-left"></span>
+                    </a>
+                    <a class="carousel-control right" href="#mywork" data-slide="next">
+                      <span class="glyphicon glyphicon-arrow-right"></span>
+                    </a>                    
+                 </div>
+               </div>
+            </article>
+            <section class="row">
+               <div id="msg" class="col-md-12">
+                <p>Click/Press on center of the image to go to site!</p>
+               </div>
+               <div class="col-md-12">
+                <hr>
+               </div>
+            </section>            
+            <footer id="contact" class="row">             
+                <div class="col-md-12">
+                  <a href="mailto:chrisbalaf1987@gmail.com"><img src="img/email.png" class="img-circle" alt="Email me @ chrisbalaf1987@gmail.com"></a>               
+                  <a href="https://plus.google.com/u/0/107951965034064218250/about"><img src="img/g.png" class="img-circle" alt="Google+ Profile"></a>               
+                  <a href="http://gr.linkedin.com/pub/christos-balafoutis/76/294/794"><img src="img/lin.png"  alt="View Christos Balafoutis's LinkedIn profile"></a>
+                </div>
+                <section id="Copy" class="col-md-12"><p>&COPY;CB 2014</p></section>
+            </footer>    
         </div>
-        <!-------Scripts needed for carousel ----->
+        <!-- Scripts needed for carousel -->
         <script src="js/jquery/jquery-2.1.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>

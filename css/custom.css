@@ -1,74 +1,85 @@
-﻿/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 18 Οκτ 2014, 2:17:36 μμ
-    Author     : UFO
-*/
 body {
-    background-color: beige ;
-font-family: 'glyphicons';
+background-color: #f5f5dc;
+font-family: glyphicons;
 }
 
-.container{
-    width: 70%;
-    margin: 0 auto;
+.container {
+width: 80%;
+margin: 0 auto;
 }
 
-#header img{
+#header img {
 float: left;
-max-width: 25%;
+max-width: 250px;
 }
 
-#header {
-    text-align: right;
-    margin-right: 0;   
+#header,
+h2{
+text-align: right;
+margin-right: 0;
+font-size: medium;
 }
 
-
-
-.container hr {     
-     border-style: outset;
-     border-width: thin;
-     border-bottom-color:  white;
-     border-top-color: deepskyblue;
+.container hr {
+border-bottom-color: #fff;
+border-top-color: #00bfff;
+border-style: outset;
+border-width: thin;
 }
 
-#matrix{  
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+#matrix {
+display: block;
+margin: auto;
 }
 
-.container h4{    
-   text-align: center;
+.container h3 {
+text-align: center;
 }
 
-#Fc{
-    margin-top: 100px;    
-    text-decoration: underline;
+#Fc {
+margin-top: 70px;
+text-decoration: underline;
 }
 
-
-
-/*this is for making any size of images used, fit and center in the carousel. Found the solution*/
-/*on web http://stackoverflow.com/questions/20849539/make-bootstrap-carousel-responsive-on-height*/
-.carousel-inner .item img{
-    width: 100%;
-    margin: auto;
+.carousel-inner .item img {
+width: 100%;
+margin: auto;
 }
 
+#contact img {
+width: 40px;
+height: 40px;
+padding: 4px;
+}
 
+#contact {
+color: #ccc;
+}
 
-#contact img{
-    padding: 4px;
-    width: 40px;
-    height: 40px;
+#Copy{
+font-style: italic;
+text-align: right;
+}
+
+#msg{
+text-align: center;
+margin-top: 10px;
+font-size: large;
+}
+
+@media (max-width: 720px){
+    #header,
+    h2{        
+        text-align: center;
+        margin:auto;
+    }
     
-}
-
-#contact{
-   color: #CCC ;
+    #header img{
+        display: none;
+    }
+    
+    .carousel-indicators,
+    .carousel-inner h3{
+        display: none;
+    }    
 }
