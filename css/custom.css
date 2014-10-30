@@ -1,70 +1,66 @@
 body {
-background-color: #f5f5dc;
-font-family: glyphicons;
+    background-color: #f5f5dc;
+    font-family: glyphicons;
 }
 
 .container {
-width: 80%;
-margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #header img {
-float: left;
-max-width: 250px;
+    float: left;
+    max-width: 250px;
 }
 
 #header,
 h2{
-text-align: right;
-margin-right: 0;
-font-size: medium;
+    text-align: right;
+    margin-right: 0;
+    font-size: medium;
 }
 
 .container hr {
-border-bottom-color: #fff;
-border-top-color: #00bfff;
-border-style: outset;
-border-width: thin;
+    border-bottom-color: #fff;
+    border-top-color: #00bfff;
+    border-style: outset;
+    border-width: thin;
 }
 
 #matrix {
-display: block;
-margin: auto;
+    display: block;
+    margin: auto;
 }
 
 .container h3 {
-text-align: center;
+    text-align: center;
 }
 
 #Fc {
-margin-top: 70px;
-text-decoration: underline;
+    margin-top: 70px;
+    text-decoration: underline;
 }
 
 .carousel-inner .item img {
-width: 100%;
-margin: auto;
+    width: 100%;
+    margin: auto;
 }
 
 #contact img {
-width: 40px;
-height: 40px;
-padding: 4px;
-}
-
-#contact {
-color: #ccc;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
 }
 
 #Copy{
-font-style: italic;
-text-align: right;
+    font-style: italic;
+    text-align: right;
 }
 
 #msg{
-text-align: center;
-margin-top: 10px;
-font-size: large;
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
 }
 
 @media (max-width: 720px){
