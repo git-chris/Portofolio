@@ -14,7 +14,7 @@ body {
 }
 
 #header,
-h2{
+h2 {
     text-align: right;
     margin-right: 0;
     font-size: medium;
@@ -52,30 +52,30 @@ h2{
     padding: 4px;
 }
 
-#Copy{
+#Copy {
     font-style: italic;
     text-align: right;
 }
 
-#msg{
+#msg {
     text-align: center;
     margin-top: 10px;
     font-size: large;
 }
 
-@media (max-width: 720px){
+@media (max-width: 720px) {
     #header,
-    h2{        
+    h2 {
         text-align: center;
-        margin:auto;
+        margin: auto;
     }
-    
-    #header img{
+
+    #header img {
         display: none;
     }
-    
+
     .carousel-indicators,
-    .carousel-inner h3{
+    .carousel-inner h3 {
         display: none;
-    }    
+    }
 }
